@@ -1,0 +1,6 @@
+# take the base image and launch container 
+FROM centos
+# update the system 
+RUN yum update -y 
+# install some packages 
+RUN yum install git wget net-tools -y 
